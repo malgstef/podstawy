@@ -1,0 +1,40 @@
+body {
+    background-color: salmon;
+    border: 2px dashed royalblue;
+}
+
+header {
+    border: 5px dashed yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header * {
+    border: 5px solid #fff;
+    margin: 2px;
+}
+
+header nav {
+    margin: 2px;
+}
+
+.topArticle {
+    border: 5px dashed green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.bottomArticle {
+    border: 5px dashed olive;
+}
+
+.messageForm {
+    border: 2px dashed red;
+    display: flex;
+    flex-direction: column;
+}
