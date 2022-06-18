@@ -28,6 +28,10 @@ header nav {
     text-align: center;
 }
 
+ol {
+    text-align: left;
+}
+
 
 .bottomArticle {
     border: 5px dashed olive;
