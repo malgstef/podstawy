@@ -25,12 +25,12 @@ header nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
 }
 
-ol {
+/* ol {
     text-align: left;
-}
+} */
 
 
 .bottomArticle {
