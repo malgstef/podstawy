@@ -44,11 +44,16 @@ footer {
     margin-bottom: 10px;
 }
 
+ol {
+    display: table;
+    margin: 0 auto 10px;
+}
+
 .messageForm {
     /* border: 2px dashed red; */
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 }
 
@@ -83,10 +88,6 @@ section {
     margin-bottom: 10px;
 }
 
-ol {
-    display: table;
-    margin: 0 auto 10px;
-}
 
 .messageForm {
     width: 80%;
