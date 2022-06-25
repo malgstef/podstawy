@@ -8,6 +8,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 header * {
@@ -17,20 +19,14 @@ header * {
 
 header nav {
     margin: 2px;
-}
+} 
 
 .topArticle {
     border: 5px dashed green;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* text-align: center; */
 }
-
-/* ol {
-    text-align: left;
-} */
 
 
 .bottomArticle {
