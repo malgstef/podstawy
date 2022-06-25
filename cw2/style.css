@@ -39,3 +39,15 @@ article {
     margin: 1rem;
     margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+    section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    article {
+        width: 35%;
+    }
+}
