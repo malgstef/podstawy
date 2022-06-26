@@ -18,6 +18,7 @@ footer {
 header {
     border: 2px solid black;
     padding: .5rem;
+    position: sticky;
 }
 
 footer {
@@ -38,10 +39,44 @@ article {
     aspect-ratio: 1/1;
     margin: 1rem;
     margin-bottom: 0;
-    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
+article:nth-child(1) {
+    background-image: url("cat-gac84cd5ee_640.jpg");
+}
 
+article:nth-child(2) {
+    background-image: url("rat-gef93960b7_640.jpg");
+}
+
+article:nth-child(3) {
+    background-image: url("alpaca-g6f792d40a_640.jpg");
+}
+
+article:nth-child(4) {
+    background-image: url("brown-g6b4b1e920_640.jpg");
+}
+
+article::after {
+    content: "Kliknij, aby zobaczyć zwierzę";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: .5s;
+}
+
+article:active:after {
+    opacity: 0;
+}
 
 @media (min-width: 768px) {
     section {
