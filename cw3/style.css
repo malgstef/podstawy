@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px auto;
+    width: 375px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+header img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: -30px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    max-height: 100%;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    padding: 10px 0 30px;
+}
+
+section {
+    display: flex;    
+}
+
+.price1 {
+    margin: 20px;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-size: 30px;
+}
+
+.price2 {
+    text-decoration: line-through;
+    align-self: center;
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    width: 80%;
+    padding: 20px;
+    border-radius: 1rem;
+    border: transparent;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+h1 {
+    margin: 20px;
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces";
+}
+
+p {
+    font-size: 14px;
+    margin: 20px;
+    text-align: justify;
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+}
+
+.title {
+    padding: 20px 0 0;
+    letter-spacing: 5px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
