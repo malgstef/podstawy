@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table, th, td {
+    margin: 80px auto;
+    border: 2px solid forestgreen;
+    padding: 1.5rem;
+    background-color: antiquewhite;
+    color: darkslategrey;
+    font-size: 2rem;
+    text-align: center;
+}
